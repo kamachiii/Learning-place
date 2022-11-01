@@ -1,0 +1,6 @@
+{
+    "appName": "SimpleApp",
+    "server": {
+        "port": 9000
+    }
+}

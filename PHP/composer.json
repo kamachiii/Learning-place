@@ -1,0 +1,13 @@
+{
+    "name": "7ono7u/php",
+    "authors": [
+        {
+            "name": "kamachiii",
+            "email": "hengkert3jy@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "server": "php -S localhost:1234"
+    }
+}
