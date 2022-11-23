@@ -79,3 +79,20 @@ def jalan(num1, num2)
 end
 
 jalan(7, 14)
+
+
+#*Return Ruby
+def jumlah(num1, num2)
+  puts sedang menjumlahkan
+  num = num1+num2
+  return num
+end
+#!gagal
+jumlah(10,20)
+#*work
+##*bisa dengan
+puts jumlah(10,20)
+##*atau dengan
+jml = jumlah(10,20)
+puts jml-5
+
