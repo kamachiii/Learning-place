@@ -62,3 +62,20 @@ puts a+b
 
 #*berhasil karena dianggap integer
 puts a.to_i+b.to_i
+
+
+#*Belajar fungsi dan parameter
+def jalan(num1, num2)
+  ##* string
+  puts "tuk...tuk..."
+  puts "tak...tak..."
+  ##* integer
+  x = 5
+  puts "angkanya #{x}"
+  ##* integer dari parameter
+  puts "Angka dari parameter #{num1}"
+  puts "dijumlahkan dengan #{num2}"
+  puts "menjadi = #{num1+num2}"
+end
+
+jalan(7, 14)
