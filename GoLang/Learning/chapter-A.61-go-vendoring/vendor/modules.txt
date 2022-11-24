@@ -1,3 +1,0 @@
-# github.com/novalagung/gubrak/v2 v2.0.0
-## explicit
-github.com/novalagung/gubrak/v2

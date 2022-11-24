@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /gitbook/
-
-Sitemap: https://dasarpemrogramangolang.novalagung.com/sitemap.xml
