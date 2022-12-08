@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #darkmode{
+            background: black;
+            color: white;
+            transition: .5s ease;
+        }
+        #lightmode{
+            background: white;
+            color: dark;
+            transition: .5s ease;
+        }
+        #darkmode .dark{
+            visibility: hidden;
+        }
+        #darkmode .light{
+            visibility: visible;
+        }
+        #lightmode .dark{
+            visibility: visible;
+        }
+        #lightmode .light{
+            visibility: hidden;
+        }
+        .dark{
+            position: absolute;
+            left: 10px;
+        }
+    </style>
+</head>
+<body id="lightmode">
+    <h1>Test Dark Mode</h1>
+    <h3>Dari Sekolah Coding</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero ipsum inventore similique, deleniti alias maxime tenetur, quam harum maiores obcaecati doloremque in quo quidem incidunt earum. Error porro harum ab cupiditate officiis adipisci saepe est, ea facilis sunt corporis sint. Qui sapiente tenetur laborum error porro accusamus aspernatur doloribus in repudiandae! Obcaecati, aspernatur perferendis. Nihil labore laborum recusandae veniam mollitia incidunt odio deleniti, dolorum inventore, eum animi vero blanditiis doloremque, debitis est ullam quae sint iste vitae excepturi? Exercitationem, ullam obcaecati mollitia eaque iure esse beatae, impedit nostrum ratione pariatur rem nemo. Dolorum maiores excepturi voluptatum ut! Facere, rem nam!</p>
+    <br>
+    <p>Mode</p>
+    <button class="light" onclick="setDarkMode(false)">Light</button>
+    <button class="dark" onclick="setDarkMode(true)">Dark</button>
+    <script>
+        function setDarkMode(isDark){
+            if(isDark){
+                document.body.setAttribute('id', 'darkmode')
+                document.getElementById('light', arguments('hidden'))
+            }else{
+                document.body.setAttribute('id', 'lightmode')
+            }
+        }
+    </script>
+</body>
+</html>
