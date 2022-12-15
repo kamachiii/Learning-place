@@ -1,0 +1,3 @@
+[submodule "jsonbot"]
+	path = jsonbot
+	url = https://github.com/atjeprahmat/jsonbot
